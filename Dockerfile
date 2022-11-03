@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/php-80
+FROM registry.redhat.io/rhel9/php-80:1-33
 MAINTAINER Chris Jenkins "chrisj@redhat.com"
 USER root
 RUN yum -y install openssl
